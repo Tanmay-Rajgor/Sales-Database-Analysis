@@ -1,0 +1,9 @@
+This is a document which i created to keep track of errors i made while i working on this project, and i solved issues.
+
+
+1. Foreign key 'FK__Sales__EmployeeI__2A4B4B5E' references invalid table 'Employees'. 
+Ans : I got this error when i was wrting sql query for creating new tables, Sales, Customers, Employees, Product.
+during this process, i gave references from Sales table to ProductID, CustomerID and EmployeeID. and run query and i got above mentioned error.
+so i searched about it on google and found that i got this error because i was referencing to EmployeeID before i created the table. so quick solution 
+of this error was to move query for creating employee table before sales table query. and problem was solved and all tables were created as expected.
+
