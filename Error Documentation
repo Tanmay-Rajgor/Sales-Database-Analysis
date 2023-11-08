@@ -1,4 +1,4 @@
-This is a document which i created to keep track of errors i made while i working on this project, and i solved issues.
+This is a document which i created to keep track of errors i made while i working on this project, and solution of issues.
 
 
 1. Foreign key 'FK__Sales__EmployeeI__2A4B4B5E' references invalid table 'Employees'. 
